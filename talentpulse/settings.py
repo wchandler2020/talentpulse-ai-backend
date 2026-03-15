@@ -89,8 +89,8 @@ CORS_ALLOW_CREDENTIALS = True
 # ── Auth ───────────────────────────────────────────────────────────────────────
 CLERK_SECRET_KEY = os.getenv('CLERK_SECRET_KEY')
 
-# ── OpenAI ─────────────────────────────────────────────────────────────────────
-OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
+# ── Anthropic API Key ─────────────────────────────────────────────────────────────────────
+ANTHROPIC_API_KEY = os.getenv('ANTHROPIC_API_KEY')
 
 # ── AWS S3 ─────────────────────────────────────────────────────────────────────
 AWS_ACCESS_KEY_ID = os.getenv('AWS_ACCESS_KEY_ID')
